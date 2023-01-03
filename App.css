@@ -1,0 +1,44 @@
+.App {
+  background-color: var(--container-bg-color);
+  padding: 3.5rem;
+  width: 32rem;
+  min-height: 32rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.8rem;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  font-family: "Karla", sans-serif;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #5035ff;
+  box-shadow: 0 0.32rem 0.768rem rgba(0, 0, 0, 0.18);
+  margin-top: 2.7rem;
+  padding: 0.9rem 2.5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.info {
+  font-size: 1.6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}

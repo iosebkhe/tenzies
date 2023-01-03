@@ -1,0 +1,25 @@
+:root {
+  --heading-color: #2b283a;
+  --header-text-color: #4a4e74;
+}
+
+.header {
+  margin-bottom: 2.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: var(--heading-color);
+  font-size: 2.6rem;
+}
+
+.headerText {
+  /* width: 44%; */
+  font-family: "Inter", sans-serif;
+  color: var(--header-text-color);
+  text-align: center;
+  font-size: 1.3rem;
+}
