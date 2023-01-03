@@ -1,4 +1,4 @@
-# Meme Generator
+# Tenzies
 
 I've created little fun game in React with the help of Scrimba's React Course. [Learn React with Bob Ziroll](https://scrimba.com/learn/learnreact).
 
